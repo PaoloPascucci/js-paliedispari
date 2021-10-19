@@ -11,10 +11,8 @@ function getRandom() {
     return Math.ceil(Math.random() * 5);
 }
 
-function summary() {
     const Sum = UserNumber + getRandom()
-    console.log(Sum);
-}
+console.log(Sum);
 
 function Finalnumber(number) {
     if (number % 2 == 0) {
@@ -26,7 +24,7 @@ function Finalnumber(number) {
 
 }
 
-if (User == Finalnumber()) {
+if (User == Finalnumber(Sum)) {
     document.getElementById('stamp').innerHTML = "Il giocatore ha vinto"
 }
 else {
